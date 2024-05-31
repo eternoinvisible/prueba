@@ -1,0 +1,122 @@
+body {
+    padding: 4em;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'IBM Plex', serif;
+}
+
+.header-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.header-table th, .header-table td {
+    border: 1px solid #000;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.title {
+    font-size: 25px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.editor {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.info {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.left-column {
+    width: 90%;
+}
+
+.right-column {
+    width: 10%;
+}
+
+.equal-height {
+    height: 50px;
+}
+
+.article-title {
+    font-size: 50px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 200;
+    text-align: left;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.article-authors, .doi, .dates {
+    font-size: 15px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.doi, .dates {
+    font-size: 15px;
+}
+
+.abstract-title {
+    font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.titular-1 {
+    font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.blockquote {
+    margin: 40px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'IBM Plex', serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.references {
+    font-family: 'IBM Plex', serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.footnote-ref {
+    font-family: 'IBM Plex', serif;
+    font-size: 10px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    body {
+        padding: 1em;
+    }
+}
+
