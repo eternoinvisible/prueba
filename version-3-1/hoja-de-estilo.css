@@ -114,7 +114,7 @@ body {
 }
 @font-face {
   font-family: 'Clash Display';
-  src: url('../fonts/ClashDisplay-Bold.otf') format('woff2'),
+  src: url('version-3-1/fonts/ClashDisplay-Bold.otf') format('otf'),
       }
 
 /* Media Query for Mobile Devices */
