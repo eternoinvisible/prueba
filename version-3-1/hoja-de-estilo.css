@@ -111,10 +111,10 @@ body {
     border-top-offset:-60px;
     border-bottom: 1px solid #000;
     border-bottom-offset:-60px;
-    padding-left: 4em; /* Consistent padding */
-    padding-right: 4em; /* Consistent padding */
-    padding-top: 4em; /* Consistent padding */
-    padding-bottom: 4em; /* Consistent padding */
+    padding-left: 40px; /* Updated padding */
+    padding-right: 40px; /* Updated padding */
+    padding-top: 20px; /* Updated padding */
+    padding-bottom: 20px; /* Updated padding */
     font-family: 'IBM Plex', serif;
     font-size: 20px;
     font-weight: 300;
@@ -127,10 +127,10 @@ body {
     border-top-offset:-60px;
     border-bottom: 1px solid #000;
     border-bottom-offset:-60px;
-    padding-left: 4em; /* Consistent padding */
-    padding-right: 4em; /* Consistent padding */
-    padding-top: 4em; /* Consistent padding */
-    padding-bottom: 4em; /* Consistent padding */
+    padding-left: 40px; /* Updated padding */
+    padding-right: 40px; /* Updated padding */
+    padding-top: 20px; /* Updated padding */
+    padding-bottom: 20px; /* Updated padding */
     font-family: 'IBM Plex', serif;
     font-size: 20px;
     font-weight: 300;
