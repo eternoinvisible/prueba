@@ -118,13 +118,15 @@ body {
 }
 
 .blockquote {
-    margin: 4em 0;
+  
     border-top: 1px solid #000;
+    border-top-offset:-40px;
     border-bottom: 1px solid #000;
-    padding-left: 4em; /* Updated padding */
-    padding-right: 4em; /* Updated padding */
-    padding-top: 4em; /* Updated padding */
-    padding-bottom: 4em; /* Updated padding */
+    border-bottom-offset:-40px;
+    padding-left: 40px; /* Updated padding */
+    padding-right: 40px; /* Updated padding */
+    padding-top: 40px; /* Updated padding */
+    padding-bottom: 40px; /* Updated padding */
     font-family: 'IBM Plex', serif;
     font-size: 20px;
     font-weight: 300;
