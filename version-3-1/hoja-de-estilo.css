@@ -92,9 +92,9 @@ body {
 .blockquote {
   
     border-top: 1px solid #000;
-    border-top-offset:-40px;
+    border-top-offset:-60px;
     border-bottom: 1px solid #000;
-    border-bottom-offset:-40px;
+    border-bottom-offset:-60px;
     padding-left: 40px; /* Updated padding */
     padding-right: 40px; /* Updated padding */
     padding-top: 40px; /* Updated padding */
