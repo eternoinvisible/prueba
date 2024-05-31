@@ -51,20 +51,20 @@ body {
 .title {
     font-size: 25px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 900;
+    font-weight: Bold;
     text-transform: uppercase;
 }
 
 .editor {
     font-family: 'Clash Display', sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: Medium;
 }
 
 .info {
     font-family: 'Clash Display', sans-serif;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: Medium;
 }
 
 .left-column {
@@ -82,7 +82,7 @@ body {
 .article-title {
     font-size: 50px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 200;
+    font-weight: Light;
     text-align: left;
     margin-top: 20px;
     padding-top: 10px;
@@ -92,7 +92,7 @@ body {
 .article-authors, .doi, .dates {
     font-size: 15px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 400;
+    font-weight: Medium;
     text-align: left;
     margin-top: 10px;
 }
@@ -104,7 +104,7 @@ body {
 .abstract-title {
     font-size: 20px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: bold;
+    font-weight: Bold;
     text-align: left;
     margin-top: 10px;
 }
@@ -112,7 +112,7 @@ body {
 .titular-1 {
     font-size: 20px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: bold;
+    font-weight: Bold;
     text-align: left;
     margin-top: 10px;
 }
@@ -146,7 +146,7 @@ body {
 .table-title {
     font-size: 20px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 600;
+    font-weight: Bold;
     text-align: left;
     margin-top: 20px;
 }
@@ -166,20 +166,20 @@ body {
 .data-table th {
     font-size: 15px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: bold;
+    font-weight: light;
     text-transform: uppercase;
 }
 
 .data-table td {
     font-size: 15px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 300;
+    font-weight: light;
 }
 
 .table-legend {
     font-size: 15px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     margin-top: 5px;
     text-align: left;
 }
