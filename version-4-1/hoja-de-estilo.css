@@ -90,15 +90,11 @@ body {
 }
 
 .blockquote {
-  
+    margin: 40em 40em;
     border-top: 1px solid #000;
-    border-offset-top: -60px;
     border-bottom: 1px solid #000;
-    border-bottom-offset:-60px;
-    padding-left: 40px; /* Updated padding */
-    padding-right: 40px; /* Updated padding */
-    padding-top: 40px; /* Updated padding */
-    padding-bottom: 40px; /* Updated padding */
+    padding-top: 20px; /* Updated padding */
+    padding-bottom: 20px; /* Updated padding */
     font-family: 'IBM Plex', serif;
     font-size: 20px;
     font-weight: 300;
@@ -106,12 +102,11 @@ body {
 }
 
 .ol {
-    margin: 40px 0;
+ margin: 40em 40em;
     border-top: 1px solid #000;
-    border-top-offset:-60px;
     border-bottom: 1px solid #000;
-    padding-left: 4em; /* Consistent padding */
-    padding-right: 4em; /* Consistent padding */
+    padding-top: 20px; /* Updated padding */
+    padding-bottom: 20px; /* Updated padding */
     font-family: 'IBM Plex', serif;
     font-size: 20px;
     font-weight: 300;
@@ -119,13 +114,11 @@ body {
 }
 
 .ul {
-    margin: 40px 0;
-  border-top: 1px solid #000;
-    border-top-offset:-60px;
+margin: 40em 40em;
+    border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    border-bottom-offset:-60px;
-    padding-left: 4em; /* Consistent padding */
-    padding-right: 4em; /* Consistent padding */
+    padding-top: 20px; /* Updated padding */
+    padding-bottom: 20px; /* Updated padding */
     font-family: 'IBM Plex', serif;
     font-size: 20px;
     font-weight: 300;
