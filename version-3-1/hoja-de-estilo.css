@@ -8,12 +8,13 @@
         encabezado {
             font-family: 'Clash Display', sans-serif;
             margin: 0;
-            padding: 10px;
+            padding: 5px;
         }
         .header-table {
             width: 100%;
             border-collapse: collapse;
             table-layout: fixed;
+         aligned: center;
         }
         .header-table th, .header-table td {
             border: 1px solid #000;
