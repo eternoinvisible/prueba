@@ -121,10 +121,10 @@ body {
     margin: 40px 0;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 4em; /* Updated padding */
+    padding-right: 4em; /* Updated padding */
+    padding-top: 4em; /* Updated padding */
+    padding-bottom: 4em; /* Updated padding */
     font-family: 'IBM Plex', serif;
     font-size: 20px;
     font-weight: 300;
