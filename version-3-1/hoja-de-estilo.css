@@ -4,7 +4,30 @@
     font-weight: bold;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Clash Display';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Extralight.otf') format('opentype');
+    font-weight: Extralight;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clash Display';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-light.otf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clash Display';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Medium.otf') format('opentype');
+    font-weight: Medium;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Clash Display';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Regular.otf') format('opentype');
+    font-weight: Regular;
+    font-style: normal;
+}
 body {
     padding: 4em;
     box-sizing: border-box;
@@ -28,20 +51,20 @@ body {
 .title {
     font-size: 25px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 900;
+    font-weight: Bold;
     text-transform: uppercase;
 }
 
 .editor {
     font-family: 'Clash Display', sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: Medium;
 }
 
 .info {
     font-family: 'Clash Display', sans-serif;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: Medium;
 }
 
 .left-column {
@@ -59,7 +82,7 @@ body {
 .article-title {
     font-size: 50px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 200;
+    font-weight: light;
     text-align: left;
     margin-top: 20px;
     padding-top: 10px;
@@ -69,7 +92,7 @@ body {
 .article-authors, .doi, .dates {
     font-size: 15px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 400;
+    font-weight: Medium;
     text-align: left;
     margin-top: 10px;
 }
@@ -81,7 +104,7 @@ body {
 .abstract-title {
     font-size: 20px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: bold;
+    font-weight: Bold;
     text-align: left;
     margin-top: 10px;
 }
@@ -89,19 +112,21 @@ body {
 .titular-1 {
     font-size: 20px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: bold;
+    font-weight: Bold;
     text-align: left;
     margin-top: 10px;
 }
 
 .blockquote {
-    margin: 40px 0;
+  
     border-top: 1px solid #000;
+    border-top-offset:-40px;
     border-bottom: 1px solid #000;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-bottom-offset:-40px;
+    padding-left: 40px; /* Updated padding */
+    padding-right: 40px; /* Updated padding */
+    padding-top: 40px; /* Updated padding */
+    padding-bottom: 40px; /* Updated padding */
     font-family: 'IBM Plex', serif;
     font-size: 20px;
     font-weight: 300;
@@ -123,7 +148,7 @@ body {
 .table-title {
     font-size: 20px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 600;
+    font-weight: Bold;
     text-align: left;
     margin-top: 20px;
 }
@@ -143,20 +168,20 @@ body {
 .data-table th {
     font-size: 15px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: bold;
+    font-weight: light;
     text-transform: uppercase;
 }
 
 .data-table td {
     font-size: 15px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 300;
+    font-weight: light;
 }
 
 .table-legend {
     font-size: 15px;
     font-family: 'Clash Display', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     margin-top: 5px;
     text-align: left;
 }
