@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Clash Display';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     padding: 4em;
     box-sizing: border-box;
@@ -112,10 +119,47 @@ body {
     font-family: 'IBM Plex', serif;
     font-size: 10px;
 }
-@font-face {
-  font-family: 'Clash Display';
-  src: url('version-3-1/fonts/ClashDisplay-Bold.otf') format('otf'),
-      }
+
+.table-title {
+    font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+.data-table th {
+    font-size: 15px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.data-table td {
+    font-size: 15px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 300;
+}
+
+.table-legend {
+    font-size: 15px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 300;
+    margin-top: 5px;
+    text-align: left;
+}
 
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
@@ -123,4 +167,3 @@ body {
         padding: 1em;
     }
 }
-
