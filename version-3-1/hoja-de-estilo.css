@@ -105,6 +105,41 @@ body {
     text-align: justify;
 }
 
+ol {
+    margin: 40px 0;
+    border-top: 1px solid #000;
+    border-top-offset:-60px;
+    border-bottom: 1px solid #000;
+    border-bottom-offset:-60px;
+    padding-left: 4em; /* Consistent padding */
+    padding-right: 4em; /* Consistent padding */
+    padding-top: 4em; /* Consistent padding */
+    padding-bottom: 4em; /* Consistent padding */
+    font-family: 'IBM Plex', serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+ul {
+    margin: 40px 0;
+  border-top: 1px solid #000;
+    border-top-offset:-60px;
+    border-bottom: 1px solid #000;
+    border-bottom-offset:-60px;
+    padding-left: 4em; /* Consistent padding */
+    padding-right: 4em; /* Consistent padding */
+    padding-top: 4em; /* Consistent padding */
+    padding-bottom: 4em; /* Consistent padding */
+    font-family: 'IBM Plex', serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+li {
+    margin-bottom: 1em; /* Adjust spacing between list items as needed */
+}
 .references {
     font-family: 'IBM Plex', serif;
     font-size: 15px;
