@@ -105,7 +105,7 @@ body {
     text-align: justify;
 }
 
-ol {
+.ol {
     margin: 40px 0;
     border-top: 1px solid #000;
     border-top-offset:-60px;
@@ -121,7 +121,7 @@ ol {
     text-align: justify;
 }
 
-ul {
+.ul {
     margin: 40px 0;
   border-top: 1px solid #000;
     border-top-offset:-60px;
@@ -137,7 +137,7 @@ ul {
     text-align: justify;
 }
 
-li {
+.li {
     margin-bottom: 1em; /* Adjust spacing between list items as needed */
 }
 .references {
