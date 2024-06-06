@@ -154,6 +154,7 @@ margin: 40px 40px;
     margin-top: 10px;
 }
 
+
 .data-table th, .data-table td {
     border: 1px solid #000;
     padding: 10px;
@@ -182,6 +183,16 @@ margin: 40px 40px;
 }
 
 /* Media Query for Mobile Devices */
+
+ @media (max-width: 600px) {
+        .table-legend {
+            text-align: center;
+        }
+        .data-table {
+            font-size: 10px;
+        }
+    }
+}
 @media (max-width: 600px) {
     body {
         padding: 1em;
