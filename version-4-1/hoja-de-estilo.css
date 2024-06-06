@@ -42,10 +42,10 @@ body {
             font-weight: light;
         }
         .left-column {
-            width: 90%;
+            width: 75%;
         }
         .right-column {
-            width: 10%;
+            width: 25%;
         }
         .equal-height {
             height: 50px;
