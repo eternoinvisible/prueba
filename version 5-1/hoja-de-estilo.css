@@ -1,0 +1,258 @@
+
+body {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', serif;
+}
+        encabezado {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+        }
+        .header-table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+         text-align: center;
+        }
+        .header-table th, .header-table td {
+            border: 1px solid #000;
+            padding: 2px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .title {
+            font-size: 25px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .editor {
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: medium;
+        }
+        .info {
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: light;
+        }
+        .left-column {
+            width: 75%;
+        }
+        .right-column {
+            width: 25%;
+        }
+        .equal-height {
+            height: 50px;
+        }
+
+.article-title {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter !important;
+    text-align: left;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.article-authors, .doi, .dates {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: Medium;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.doi, .dates {
+    font-size: 15px;
+}
+
+.abstract-title {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: Bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.titular-1 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: Bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.blockquote {
+    margin: 40px 40px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 20px; /* Updated padding */
+    padding-bottom: 20px; /* Updated padding */
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.ol {
+ margin: 40px 40px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 20px; /* Updated padding */
+    padding-bottom: 20px; /* Updated padding */
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.ul {
+margin: 40px 40px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 20px; /* Updated padding */
+    padding-bottom: 20px; /* Updated padding */
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.li {
+    margin-bottom: 1em; /* Adjust spacing between list items as needed */
+}
+.references {
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.footnote-ref {
+    font-family: 'Roboto', serif;
+    font-size: 10px;
+}
+
+.table-title {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: Bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+
+.data-table th, .data-table td {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: left; font-family: 'Roboto', sans-serif;
+    font-weight: light;
+}
+
+.data-table th {
+     
+    text-transform: uppercase;
+}
+
+
+
+.table-legend {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: left;
+}
+
+/* Media Query for Mobile Devices */
+
+ @media (max-width: 600px) {
+        .table-legend {
+            text-align: center;
+        }
+        .data-table {
+            font-size: 10px;
+        }
+		data-table th, .data-table td {
+      font-size: 10px;
+	    padding: 0.5px;
+            text-align: center;
+            vertical-align: middle;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        padding: 1em;
+		text-align: left;
+    }
+}
+@media (min-width: 1200px) {
+	body {
+		max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+}
+
+@media (max-width: 767px) and (max-width: 767px) {
+	body {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Extralight.otf') format('opentype');
+    font-weight: Extralight;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-light.otf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Medium.otf') format('opentype');
+    font-weight: Medium;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Regular.otf') format('opentype');
+    font-weight: Regular;
+    font-style: normal;
+}
