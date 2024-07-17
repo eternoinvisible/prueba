@@ -226,33 +226,3 @@ margin: 40px 40px;
 		padding-left: 5px;
 		padding-right: 5px;
 	}
-@font-face {
-    font-family: 'Roboto';
-    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Extralight.otf') format('opentype');
-    font-weight: Extralight;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-light.otf') format('opentype');
-    font-weight: light;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Medium.otf') format('opentype');
-    font-weight: Medium;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url('https://eternoinvisible.github.io/prueba/version-3-1/fonts/ClashDisplay-Regular.otf') format('opentype');
-    font-weight: Regular;
-    font-style: normal;
-}
