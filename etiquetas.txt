@@ -1,0 +1,67 @@
+<html lang="en"><head><style>
+                /* Add your CSS code here */
+            </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISEÑO DE PRUEBA ARTÏCULO HTML REVISTAS CIENTÍFICAS</title>
+    <!-- Metadatos Dublin Core -->
+    <meta name="DC.title" content="Título del Documento">
+    <meta name="DC.creator" content="Nombre del Autor">
+    <meta name="DC.subject" content="Asunto del Documento">
+    <meta name="DC.description" content="Descripción del Documento">
+    <meta name="DC.publisher" content="Editorial">
+    <meta name="DC.contributor" content="Contribuidor">
+    <meta name="DC.date" content="2024-05-22">
+    <meta name="DC.type" content="Tipo de Documento">
+    <meta name="DC.format" content="text/html">
+    <meta name="DC.identifier" content="URL o Identificador">
+    <meta name="DC.source" content="ESTUDIOS SOBRE DERECHO Y SISTEMA PENAL">
+    <meta name="DC.language" content="es">
+    <meta name="DC.relation" content="Relación con Otros Recursos">
+    <meta name="DC.coverage" content="Cobertura">
+    <meta name="DC.rights" content="Derechos">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;700&amp;display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="hoja-de-estilo.css">
+</head>
+
+<body>
+
+<encabezado>
+    <table class="header-table" style="text-align: center;">
+        <tbody>
+            <tr class="equal-height">
+                <td class="left-column">
+                    <div class="titulo-revista">ESTUDIOS SOBRE DERECHO Y SISTEMA PENAL</div>
+                </td>
+                <td class="right-column" rowspan="2">
+                    <div class="info">
+                        ISSN: XXXX-XXXX<br>
+                        Vol. I / Nº 1</div><div class="info">Abril - Mayo<br>
+                        (2024)
+                    </div>
+                </td>
+            </tr>
+            <tr class="equal-height">
+                <td class="left-column">
+                    <div class="editor-revista">INSTITUTO INTERDISCIPLINARIO DE ESTUDIOS CONSTITUCIONALES (IIEC)</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</encabezado>
+<main>
+<titulo>Este es el título del artículo</titulo>
+<tituloingles>This is the english translation of the title</tituloingles>
+<titulootroidioma>Este é ou titlo em outro idioma</titulootroidioma>
+<bajada>Subtítulo complementario al título</bajada>
+<bajadaingles>This is the english translation of the subtitle</bajadaeningles>
+<bajadaotroidioma>subtítulo em outro idioma</bajadaotroidioma>
+<autor>nombre del autor</autor>
+<pertenencia>Pertenencia institucional</pertenencia>
+<recibido><b>Recibido:</b>fecha de recepcion del artículo</recibido>
+<aceptado><b>Aceptado:</b>fecha de aceptacion del artículo</aceptado>
+
+
+</main>

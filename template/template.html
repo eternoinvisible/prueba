@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISEÑO DE PRUEBA ARTÍCULO HTML REVISTAS CIENTÍFICAS</title>
+    <!-- Metadatos Dublin Core -->
+    <meta name="DC.title" content="Título del Documento">
+    <meta name="DC.creator" content="Nombre del Autor">
+    <meta name="DC.subject" content="Asunto del Documento">
+    <meta name="DC.description" content="Descripción del Documento">
+    <meta name="DC.publisher" content="Editorial">
+    <meta name="DC.contributor" content="Contribuidor">
+    <meta name="DC.date" content="2024-05-22">
+    <meta name="DC.type" content="Tipo de Documento">
+    <meta name="DC.format" content="text/html">
+    <meta name="DC.identifier" content="URL o Identificador">
+    <meta name="DC.source" content="ESTUDIOS SOBRE DERECHO Y SISTEMA PENAL">
+    <meta name="DC.language" content="es">
+    <meta name="DC.relation" content="Relación con Otros Recursos">
+    <meta name="DC.coverage" content="Cobertura">
+    <meta name="DC.rights" content="Derechos">
+
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&amp;display=swap" rel="stylesheet">
+
+    <style>
+        body {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', serif;}
+
+        .encabezado {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+        }
+        .header-table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+         text-align: center;
+        }
+        .header-table th, .header-table td {
+            border: 1px solid #000;
+            padding: 2px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .titulo-revista {
+            font-size: 22px;
+			font-weight: 900;
+            text-align: left;
+			font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+			padding-left: 1em;
+			padding-right: 5em;
+        }
+        .editor {
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+			text-align: left;
+			padding-left: 1.5em;
+			padding-right: 5em;
+        }
+        .info {
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: light;
+        }
+        .left-column {
+            width: 80%;
+        }
+        .right-column {
+            width: 20%;
+        }
+        .equal-height {
+            height: 50px;
+        }
+
+    .main {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', serif;
+        }
+		
+		 .footnote-ref {
+            font-family: 'Roboto', sans-serif;
+            font-size: 9px;
+			vertical-align: super
+          }
+
+        titulo {
+	display: block;
+    padding-top: 1.5em;
+    font-size: 60px;
+    font-weight: 200;
+    margin: -2px 0;
+	}
+		
+		tituloingles, titulootroidioma {
+    display: block;
+    padding-top: 1.5em;
+    font-size: 48px;
+    font-weight: 200;
+    margin: -2px 0;
+        }
+
+        bajada {
+    display: block;
+    font-size: 24px;
+    font-weight: 150;
+    margin: 5px 0;
+}
+        }
+		
+		 palabras-clave {
+            display: block;
+            margin: 15px 0;
+        }
+
+        
+		responsabilidad {
+            display: block;
+            margin: 15px 0;
+        }
+		
+		autor {
+            font-size: 15px;
+            font-weight: 500;
+        }
+		
+		pertenencia {
+           font-size: 15px;
+            font-weight: 200;
+        }
+		
+		
+		detalles {
+		display: block;
+		padding-top: 5em;
+		padding-bottom: 0.5em;
+		}
+		
+		recibido, aceptado {
+             font-size: 12px;
+			display: block;
+            margin: 12px 0;
+        }
+		
+		abstracttitle {
+          display: block;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 20px 0 10px;
+        }
+		
+		resumen, abstract {
+            font-family: 'Roboto serif';
+			display: block;
+            margin: 15px 0;
+            text-align: justify;
+        }
+
+        subtitulo1 {
+            display: block;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 20px 0 10px;
+        }
+
+
+        texto {
+            font-family: 'Roboto serif';
+			font-size: 16px;
+			display: block;
+            margin: 15px 0;
+            text-align: justify;
+        }
+
+        citaabando, listanumerada, listaconbullets, listaconromanos {
+            font-family: 'Roboto serif';
+			display: block;
+            font-size: 14px;
+            line-height: 1.4;
+			margin: 40px 40px;
+			border-top: 1px solid #000;
+			border-bottom: 1px solid #000;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			text-align: justify;
+		}
+
+        titulotabla, titulografico, titulofoto, fuente {
+            display: block;
+            margin: 10px 0;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        bibliografia {
+            font-family: 'Roboto serif';
+			display: block;
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 20px 0;
+        }
+
+        piedepagina {
+            font-family: 'Roboto serif';
+			display: block;
+            font-size: 12px;
+            margin: 20px 0;
+        }
+		
+		/* Media Query for Mobile Devices */
+
+ @media (max-width: 600px) {
+        .table-legend {
+            text-align: center;
+        }
+        .data-table {
+            font-size: 10px;
+        }
+		data-table th, .data-table td {
+      font-size: 10px;
+	    padding: 0.5px;
+            text-align: center;
+            vertical-align: middle;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        padding: 1.5em;
+    }
+}
+@media (min-width: 1200px) {
+	body {
+		max-width: 1200px;
+        margin-left: 8em;
+        margin-right: 8em;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+}
+
+@media (max-width: 767px) and (max-width: 767px) {
+	body {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.table-title {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: Bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+
+.data-table th, .data-table td {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: left; font-family: 'Roboto', sans-serif;
+    font-weight: light;
+}
+
+.data-table th {
+     
+    text-transform: uppercase;
+}
+
+
+
+.table-legend {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: left;
+}
+
+    </style>
+</head>
+
+<body>
+
+<encabezado>
+    <table class="header-table" style="text-align: center;">
+        <tbody>
+            <tr class="equal-height">
+                <td class="left-column">
+                    <div class="titulo-revista">ESTUDIOS SOBRE<br>DERECHO Y <br>SISTEMA PENAL</div>
+                </td>
+                <td class="right-column" rowspan="2">
+                    <div class="info">
+                        ISSN: XXXX-XXXX<br>
+                        Vol. I / Nº 1</div><div class="info">Abril - Mayo<br>
+                        (2024)
+                    </div>
+                </td>
+            </tr>
+            <tr class="equal-height">
+                <td class="left-column">
+                    <div class="editor">INSTITUTO INTERDISCIPLINARIO DE ESTUDIOS CONSTITUCIONALES (IIEC)</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</encabezado>
+
+    <main>
+       <titulo>Este es el título del artículo</titulo>
+       <bajada>Subtítulo complementario al título</bajada>
+<responsabilidad>      
+	  <autor>Nombre del autor</autor><pertenencia> / Pertenencia institucional</pertenencia>
+       </responsabilidad>
+	  <detalles>
+	  <recibido><b>Recibido:</b> fecha de recepción del artículo</recibido>
+      <aceptado><b>Aceptado:</b> fecha de aceptación del artículo</aceptado>
+      
+	 <resumen>Resumen del artículo </resumen>
+	 <palabras-clave><strong>Palabras Clave:</strong> Palabra 1 | Palabra 2 | Palabra 3 | Palabra 4 </palabras-clave> 
+      </detalles>
+<hr>      
+	  <abstracttitle>This is the English translation of the title</abstracttitle>
+	   <bajadaingles>This is the English translation of the subtitle</bajadaingles>
+       <abstract>Abstract of the article </abstract> 
+        <palabras-clave><strong>Keywords:</strong> keyword 1 | keyword 2 | keyword 3 | keyword 4 </palabras-clave> 
+<hr>
+      		
+        <subtitulo1>
+		primer subtitulo
+		</subtitulo1>
+		
+        <texto>
+PARRAFO
+		</texto>
+		
+		<texto>
+		PÁRRAFO CON NOTAS AL PIE, PRIMERA NOTA AL PIE <span id="fnref1"><a href="#fn1" class="footnote-ref" id="#fnref1" role="doc-noteref">1</a></span> SEGUNDA NOTA AL PIE <span id="fnref2"><a href="#fn2" class="footnote-ref" id="#fnref2" role="doc-noteref">2</a></span> RECORDAR CAMBIAR LOS NÚMEROS TANTO EN LA REF COMO EN EL PIE (SON 6 CAMBIOS EN TOTAL)
+		
+		</texto>
+		
+        <citaabando>
+		Cita con cuerpo interlineado menor al cuerpo principal de texto
+		</citaabando>
+        
+		<listanumerada>
+		Lista numerada con cuerpo e interlineado menor al cuerpo principal de texto
+		</listanumerada>
+        
+		<listaconbullets>
+		Lista con bullets con cuerpo e interlineado menor al cuerpo principal de texto
+		</listaconbullets>
+        
+		<listaconromanos>
+		Lista con números romanos en minúsculas con cuerpo e interlineado menor al cuerpo principal de texto
+		</listaconromanos>
+        
+		<titulotabla>
+		Título de tabla
+		</titulotabla>
+       
+	   <titulografico>
+	   Título de gráfico
+	   </titulografico>
+	   
+        
+		<titulofoto>
+		Título de foto
+		</titulofoto>
+        
+		<fuente>
+		Pie de tabla, gráfico o foto
+		</fuente>
+        
+		<bibliografia>
+		Cuerpo de referencias bibliográficas en tamaño e interlineado menor al texto principal
+		</bibliografia>
+        
+		<!-- /* llamada a pie de página 
+		<span id="fnref1"><a href="#fn1" class="footnote-ref" id="#fnref1" role="doc-noteref">1</a></span>
+		*/ -->
+		
+		<piedepagina id="footnotes" role="doc-endnotes"><br>
+		<ol><li id="fn1"><span style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">
+		PRIMERA NOTA AL PIE 
+		</span><a href="#fnref1" role="doc-backlink" style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">↩︎</a></li>
+		<li id="fn2"><span style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">
+		SEGUNDA NOTA AL PIE
+		</span><a href="#fnref2" role="doc-backlink" style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">↩︎</a></li>
+		</ol>
+		</piedepagina>
+    </main>
+
+
+
+</body></html>

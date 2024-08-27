@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISEÑO DE PRUEBA ARTÍCULO HTML REVISTAS CIENTÍFICAS</title>
+    <!-- Metadatos Dublin Core -->
+    <meta name="DC.title" content="Título del Documento">
+    <meta name="DC.creator" content="Nombre del Autor">
+    <meta name="DC.subject" content="Asunto del Documento">
+    <meta name="DC.description" content="Descripción del Documento">
+    <meta name="DC.publisher" content="Editorial">
+    <meta name="DC.contributor" content="Contribuidor">
+    <meta name="DC.date" content="2024-05-22">
+    <meta name="DC.type" content="Tipo de Documento">
+    <meta name="DC.format" content="text/html">
+    <meta name="DC.identifier" content="URL o Identificador">
+    <meta name="DC.source" content="ESTUDIOS SOBRE DERECHO Y SISTEMA PENAL">
+    <meta name="DC.language" content="es">
+    <meta name="DC.relation" content="Relación con Otros Recursos">
+    <meta name="DC.coverage" content="Cobertura">
+    <meta name="DC.rights" content="Derechos">
+
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&amp;display=swap" rel="stylesheet">
+
+    <style>
+        body {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', serif;}
+
+        .encabezado {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+        }
+        .header-table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+         text-align: center;
+        }
+        .header-table th, .header-table td {
+            border: 1px solid #000;
+            padding: 2px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .titulo-revista {
+            font-size: 22px;
+			font-weight: 900;
+            text-align: left;
+			font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+			padding-left: 1em;
+			padding-right: 5em;
+        }
+        .editor {
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+			text-align: left;
+			padding-left: 1.5em;
+			padding-right: 5em;
+        }
+        .info {
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-weight: light;
+        }
+        .left-column {
+            width: 80%;
+        }
+        .right-column {
+            width: 20%;
+        }
+        .equal-height {
+            height: 50px;
+        }
+
+    .main {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', serif;
+        }
+		
+		 .footnote-ref {
+            font-family: 'Roboto', sans-serif;
+            font-size: 9px;
+			vertical-align: super
+          }
+
+        titulo {
+	display: block;
+    padding-top: 1.5em;
+    font-size: 60px;
+    font-weight: 200;
+    margin: -2px 0;
+	}
+		
+		tituloingles, titulootroidioma {
+    display: block;
+    padding-top: 1.5em;
+    font-size: 48px;
+    font-weight: 200;
+    margin: -2px 0;
+        }
+
+        bajada {
+    display: block;
+    font-size: 24px;
+    font-weight: 150;
+    margin: 5px 0;
+}
+        }
+		
+		 palabras-clave {
+            display: block;
+            margin: 15px 0;
+        }
+
+        
+		responsabilidad {
+            display: block;
+            margin: 15px 0;
+        }
+		
+		autor {
+            font-size: 15px;
+            font-weight: 500;
+        }
+		
+		pertenencia {
+           font-size: 15px;
+            font-weight: 200;
+        }
+		
+		
+		detalles {
+		display: block;
+		padding-top: 5em;
+		padding-bottom: 0.5em;
+		}
+		
+		recibido, aceptado {
+             font-size: 12px;
+			display: block;
+            margin: 12px 0;
+        }
+		
+		abstracttitle {
+          display: block;
+            font-size: 20px;
+            font-weight: 900;
+            margin: 20px 0 10px;
+        }
+		
+		resumen, abstract {
+            font-family: 'Roboto serif';
+			display: block;
+            margin: 15px 0;
+            text-align: justify;
+        }
+
+        subtitulo1 {
+            display: block;
+            font-size: 20px;
+            font-weight: 500;
+            margin: 20px 0 10px;
+        }
+
+
+        texto {
+            font-family: 'Roboto serif';
+			font-size: 16px;
+			display: block;
+            margin: 15px 0;
+            text-align: justify;
+        }
+
+        citaabando, listanumerada, listaconbullets, listaconromanos {
+            font-family: 'Roboto serif';
+			display: block;
+            font-size: 14px;
+            line-height: 1.4;
+			margin: 40px 40px;
+			border-top: 1px solid #000;
+			border-bottom: 1px solid #000;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			text-align: justify;
+		}
+
+        titulotabla, titulografico, titulofoto, fuente {
+            display: block;
+            margin: 10px 0;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        bibliografia {
+            font-family: 'Roboto serif';
+			display: block;
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 20px 0;
+        }
+
+        piedepagina {
+            font-family: 'Roboto serif';
+			display: block;
+            font-size: 12px;
+            margin: 20px 0;
+        }
+		
+		/* Media Query for Mobile Devices */
+
+ @media (max-width: 600px) {
+        .table-legend {
+            text-align: center;
+        }
+        .data-table {
+            font-size: 10px;
+        }
+		data-table th, .data-table td {
+      font-size: 10px;
+	    padding: 0.5px;
+            text-align: center;
+            vertical-align: middle;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        padding: 1.5em;
+    }
+}
+@media (min-width: 1200px) {
+	body {
+		max-width: 1200px;
+        margin-left: 8em;
+        margin-right: 8em;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+}
+
+@media (max-width: 767px) and (max-width: 767px) {
+	body {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.table-title {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: Bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+
+.data-table th, .data-table td {
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: left; font-family: 'Roboto', sans-serif;
+    font-weight: light;
+}
+
+.data-table th {
+     
+    text-transform: uppercase;
+}
+
+
+
+.table-legend {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: left;
+}
+
+    </style>
+</head>
+
+<body>
+
+<encabezado>
+    <table class="header-table" style="text-align: center;">
+        <tbody>
+            <tr class="equal-height">
+                <td class="left-column">
+                    <div class="titulo-revista">ESTUDIOS SOBRE<br>DERECHO Y <br>SISTEMA PENAL</div>
+                </td>
+                <td class="right-column" rowspan="2">
+                    <div class="info">
+                        ISSN: XXXX-XXXX<br>
+                        Vol. I / Nº 1</div><div class="info">Abril - Mayo<br>
+                        (2024)
+                    </div>
+                </td>
+            </tr>
+            <tr class="equal-height">
+                <td class="left-column">
+                    <div class="editor">INSTITUTO INTERDISCIPLINARIO DE ESTUDIOS CONSTITUCIONALES (IIEC)</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</encabezado>
+
+
+    <main>
+       <titulo>Individuación en cárceles bonaerenses</titulo>
+       <bajada>Análisis de la prueba de las vulnerabilizaciones extendidas en las experiencias de docentes de nivel secundario&nbsp;</bajada>
+<responsabilidad>      
+	  <autor>Nicolás Carlos Richter</autor><pertenencia>&nbsp;/ UBA-FSOC-IIGG / CONICET (Argentina) / nrichter@sociales.uba.ar / https://orcid.org/0000-0002-8311-8308<br></pertenencia></responsabilidad>
+	  <detalles>
+	  <recibido><b>Recibido:</b> fecha de recepción del artículo /&nbsp;<b>Aceptado:</b> fecha de aceptación del artículo</recibido>
+      
+	 <resumen><b>Resumen:</b> En este artículo comparto avances de mi tesis de maestría, cuyo objetivo general es analizar, desde la perspectiva sociológica de la individuación, las experiencias de docentes de nivel secundario en cárceles del Servicio Penitenciario Bonaerense, provincia de Buenos Aires, Argentina. Presento algunas categorías emergentes en torno a una de las pruebas específicas que lxs docentes enfrentan en su cotidianeidad en contextos de encierro. Se trata de la prueba de las vulnerabilizaciones extendidas, dentro de la cual, en esta ocasión, hago foco en las dimensiones de longitud, anchura y profundidad; es decir, vulnerabilizaciones que se extienden a lo largo y ancho en las biografías de lxs estudiantes intramuros, y que, precisamente, dentro de la cárcel se profundizan. Entre 2019 y 2022 realicé doce entrevistas en profundidad (presenciales y a distancia) a trece docentes. La conformación de la muestra responde a criterios no probabilísticos como la conveniencia y la bola de nieve, al tiempo que asegura la diversidad de perfiles e instituciones (tres). Para la reducción de datos hago una codificación abierta con la asistencia del programa Atlas.ti. En un sentido amplio, educación, salud y violencias colisionan en un microcosmos signado por la complejidad que representa hacer sentido pedagógico cuando se habitan instituciones que deberían por derecho “tratar”, “resocializar”, pero de hecho sacan desde la profundidad del ser “lo más oscuro que puede tener una persona”.</resumen>
+	 <palabras-clave><strong>Palabras Clave:</strong> educación en prisiones&nbsp; | experiencias docentes&nbsp; | sociología de la individuación</palabras-clave></detalles>
+<hr>      
+	  <abstracttitle>Individuation in Buenos Aires prisons</abstracttitle>
+	   <bajadaingles>Analysis of the challenge of widespread vulnerabilities in the experiences of secondary school teachers</bajadaingles><abstract><b>Abstract:</b> In this work I share partial progress of my master's thesis, whose general objective is to analyze, from the sociological perspective of individuation, the experiences of secondary level teachers in prisons of the Buenos Aires Penitentiary Service, Buenos Aires, Argentina. I present some emerging categories around one of the specific challenges that teachers face in their daily lives in contexts of confinement. This is the challenge of widespread vulnerabilities, within which, on this occasion, I focus on the dimensions of length, width and depth; That is to say, vulnerabilities that extend far and wide in the biographies of intramural students, and that, precisely, deepen within prison. Between 2019 and 2022, I conducted twelve in-depth interviews (in-person and remotely) with thirteen teachers. The composition of the sample responds to non-probabilistic criteria such as convenience and snowballing, while ensuring the diversity of profiles and institutions (three). For data reduction I do open coding with the assistance of the Atlas.ti program. In a broad sense, education, health and violence collide in a microcosm marked by the complexity that represents making pedagogical sense when inhabiting institutions that should by right “treat”, “resocialize”, but in fact bring out from the depth of being “the darkest that a person can have”. </abstract> 
+        <palabras-clave><strong>Keywords:</strong> education in prisons&nbsp; | teaching experiences&nbsp; | sociology of individuation</palabras-clave><hr>
+      		
+<subtitulo1><strong>
+1. Introducción
+</strong>
+</subtitulo1>
+		
+        <texto>
+En este artículo presento avances de mi tesis de maestría, la cual se enmarca en una beca doctoral UBACyT programación 2020. La totalidad de esta beca fue financiada por la Universidad de Buenos Aires entre 2020 y 2024, año en que me fue otorgada una beca de finalización de doctorado de CONICET. El objetivo general de la tesis de maestría es analizar, desde la perspectiva sociológica de la individuación, las experiencias de docentes de nivel secundario en cárceles del Servicio Penitenciario Bonaerense (SPB), provincia de Buenos Aires, Argentina. El objetivo de este artículo es presentar, en vinculación con los procesos de individuación, algunas categorías emergentes en torno a una de las <i>pruebas específicas</i> que lxs docentes enfrentan en su cotidianeidad en contextos de encierro: la <i>prueba de las vulnerabilizaciones extendidas</i>. Como resultado del proceso de codificación abierta y “en vivo”, y el recorrido en espiral analítica en clave inductiva y hermenéutica, identifico y defino las dimensiones de <i>longitud, anchura y profundidad</i>; es decir, vulnerabilizaciones que se extienden a lo largo y ancho en las biografías de lxs estudiantes intramuros, y que, precisamente, dentro de la cárcel se profundizan. Y trato de pensar y delinear algunos elementos dentro del proceso de individuación de los actores. A lo largo del proceso analítico desarrollo una estrategia metodológica de tipo cualitativo. Utilizo un diseño flexible, para analizar los procesos de individuación de docentes en la aproximación a los sentidos que construyen respecto de sus experiencias sociales y sus trayectorias institucionales (Kornblit, 2004; Vasilachis de Gialdino, 2006). Trabajo en el marco de la teoría fundamentada. Entre 2019 y 2022 realicé doce entrevistas en profundidad (presenciales y a distancia) a trece docentes. Al realizar las primeras entrevistas y observaciones, hice un primer análisis de los datos, identificando las categorías emergentes. La comparación constante entre dichas categorías y el marco teórico, me permitió delimitar la cantidad de casos necesarios hasta lograr la saturación teórica, es decir, hasta que un nuevo caso no suministre información adicional por medio de la cual pudiera desarrollar nuevas propiedades de las categorías (Strauss y Corbin, 2006; Weiss, 2017). La conformación de la muestra responde a criterios no probabilísticos como la conveniencia y la bola de nieve, al tiempo que asegura la diversidad de perfiles e instituciones (tres). Para la reducción de datos hago una codificación abierta con la asistencia del programa Atlas.ti.
+		</texto>
+		
+		<texto>
+		Las pruebas específicas del trabajo docente <span id="fnref1"><a href="#fn1" class="footnote-ref" id="#fnref1" role="doc-noteref">1</a></span> en Centros Educativos de Nivel Secundario (CENS, en adelante) en contextos de encierro <span id="fnref2"><a href="#fn2" class="footnote-ref" id="#fnref2" role="doc-noteref">2</a></span> como parte del proceso de individuación de actores sociales, se encuentran encadenadas a dos de las categorías centrales de la sociología de la individuación desarrollada por Danilo Martuccelli: <i>factores estructurales</i>, por un lado, y de pruebas comunes, por otro. En principio, la sociología de la individuación tiene un interés capital por conocer el tipo individual fabricado estructuralmente por una sociedad determinada, situada en tiempo y espacio. Esa fabricación se da en un marco en el que los grandes cambios estructurales, en un período histórico particular, participan en la transformación de los tipos de perfiles individuales en una sociedad. Asimismo, y como parte del mismo movimiento teórico-conceptual, el trabajo individual implica enfrentar una serie de pruebas comunes como parte de la constitución en actores sociales. Se trata de dos inteligencias emparentadas, dos movimientos ascendentes y descendentes que terminan por fundirse en una elipse: factores de individuación y respuestas singularizadas a pruebas comunes (Martuccelli, 2006, 2007, 2010, 2020). Ahora bien, una prueba específica, si bien permanece dentro de la misma perspectiva analítica (Araujo y Martuccelli, 2012; Martuccelli, 2006; Verhoeven, 2013), se sitúa a otra escala por dos razones complementarias. En primer lugar, en este caso se trata de pruebas emergentes en el contexto de experiencias docentes en prisiones bonaerenses. Aun si fuera pertinente en el plano conceptual y estuviera avalado en el plano empírico, a lo sumo podría pensarse la prueba de las vulnerabilizaciones extendidas como inherente al trabajo docente en contextos complejos, para no ir más allá y pensar en el trabajo docente en general. Esto da paso, en segundo lugar, al hecho de que precisamente es la especificidad de dichas pruebas la que no tiene competencia para ser generalizable a una sociedad. </texto>
+<texto>
+En todas y cada una de las entrevistas analizadas, lxs docentes refieren a una serie de dimensiones de las vidas de lxs estudiantes que implican una prueba específica en sus experiencias profesionales intramuros; se trata de la prueba de vulnerabilizaciones extendidas. En primer lugar, hablo de “vulnerabilizaciones”, y no de “vulneraciones”, porque en el último de los dos términos queda un resabio de transmisión de la responsabilidad hacia la persona afectada. Como la persona es vulnerable, entonces resulta hasta casi esperable o normal que le pasen determinadas cosas, que por cierto no le suceden a todo el mundo. Por eso prefiero despejar la inversión de la carga de la prueba sobre la víctima, e insistir con la vulnerabilización como un proceso en el que la persona no es vulnerable, sino que está siendo vulnerabilizada en sus derechos fundamentales y capacidades humanas. En segundo lugar, digo que son “extendidas” porque precisamente se despliegan a través de las vidas tanto biográficas como biológicas de lxs estudiantes, y están presentes sincrónica y diacrónicamente en múltiples dimensiones durante sus trayectorias vitales (Eribon, 2015; Fassin, 2022; Therborn, 2015).
+</texto>
+<subtitulo1><strong>
+2. Avances</strong>
+</subtitulo1>
+<subtitulo1>
+<i>2.1. Longitud</i>
+</subtitulo1>
+<texto>La <i> longitud </i> es una de las dimensiones que emergen del análisis, y está definida por la continuidad en el tiempo en las trayectorias vitales de lxs estudiantes de distintos tipos de vulnerabilizaciones. A lo largo de esas vidas, en este registro lxs docentes leen “descontrol”, “despojo”, “carencia”, “sufrimiento”. Muchas son personas que desde temprana edad tuvieron la necesidad o la obligación de salir a trabajar para la subsistencia familiar. Familias numerosas, por cierto, que suelen vivir en situaciones habitacionales precarias. Generalmente, el trabajo infantil viene asociado al abandono o el no comienzo de los ciclos de educación inicial y primaria y los ciclos subsiguientes. Se impone una asociación recurrente de “contextos vulnerables” en el plano familiar y de necesidades básicas insatisfechas para la mayoría de la matrícula. Rodrigo ilustra parte de esta problemática y sus consecuencias pedagógicas a nivel profesional:</texto>
+<citaabando>
+Pero yo mismo, que trabajo en contextos vulnerables, tengo que ver cuándo es mi necesidad de mandar tarea o no porque el chico quizá no tiene su espacio para hacer tarea, porque son siete hermanos en una sola habitación, porque cuando llega a la casa tiene que rebuscársela para comer, un montón de cosas que no le permiten hacer la tarea. La madre lo pone a trabajar, lo que sea. Imaginate vos, exigiéndole, porque vos vas a calificar; si le mandás tarea, vas a evaluar, “che, dónde está la tarea que te mandé”; “por qué no viniste a clase”; “no, usted faltó, ya está”. No, en contextos de encierro es diferente, no es como afuera. “¿Qué pasó? ¿Por qué faltaste?”; “no, estaba engomado”, engomado es cuando los tienen en un calabozo […]. No les vas a poner un dos (Rodrigo, docente CENS 3).
+</citaabando>
+<texto>La lectura de contexto interpela la práctica pedagógica y mueve a revisar tanto formas como contenidos en función de estudiantes que traen consigo una consecución de elementos perturbadores del bienestar general y la posibilidad de tener un tiempo y un espacio para ejercer plenamente su derecho a la educación. La longitud de estas vulnerabilizaciones también aparece directamente asociada a trayectorias de encierro que complejizan el hecho educativo y el ejercicio de derechos. El testimonio de Lucas da cuenta de dicha complejidad, y pone el énfasis en las dificultades de hacer convivir semejantes trayectorias con intereses genuinos respecto de la educación:</texto>
+<citaabando>
+Entonces, el estímulo, en ese sentido, tanto de mi parte como de ellos, a veces se ve truncado […]. Desde ya que hay una responsabilidad del docente, pero a veces nos excede porque tiene que ver con el contexto. Imaginate que son pibes, realmente, reventados por la vida, que terminaron en cana a los 18, 19 años, que muchos vienen de otros contextos de encierro, que no son cárceles, pero son instituciones represivas (Lucas, docente CENS 1).
+</citaabando>
+<texto>En el relato de Lucas, y en muchos otros, las vidas “reventadas” de lxs estudiantes desafían inevitablemente la posibilidad de interesarse en una propuesta educativa que, además, se da en el marco de una pena privativa de la libertad. Trayectorias signadas por la extensión en el tiempo de distintos tipos de vulnerabilizaciones que obturan la capacidad de (auto)reconocimiento de circunstancias y condiciones que dificultan el acceso mismo a la educación, así como el ejercicio de otros derechos:</texto>
+<citaabando>
+O sea, cuando vos tenés 12 años, no tenés cinco posibilidades: ser peluquero, robar, ser astronauta, fisicoquímico o profesor de gimnasia. No es que vos de esas cinco posibilidades, cualquiera podés elegir. No. Entonces es mentira la elección. Vos elegís en base al campo que vos tenés de acción y de las herramientas con las que contás. Hay herramientas que ni sabés que tenés, que la vida y la coyuntura y tu trayectoria no te permiten verlas (María, docente CENS 1).
+</citaabando>
+<texto>
+Para lxs docentes, en ese devenir de estructuras de dominación y exclusión, las personas con trayectorias de vulnerabilizaciones extendidas a lo largo de sus vidas ven encorsetada su capacidad de agencia y reducido su margen de maniobra, al avizorar horizontes predeterminados por una incapacidad real de elegir y autodeterminarse. En ese sentido, el sujeto de la educación secundaria en prisiones tensiona la acción y el trabajo docente, así como la interpretación que tienen de quienes se educan en esas circunstancias. Desde ya que este panorama, en la perspectiva docente, no remite directamente a estructuras herméticas de sometimiento, y justamente es la educación una de las “herramientas” para la integración y la subjetivación, con claroscuros, contradicciones y frustraciones. En esa misma longitud biográfica y biológica, emergen dimensiones a lo ancho de la vulnerabilización que merecen atención pormenorizada.
+</texto>
+<subtitulo1><strong>2.2. Anchura</strong><subtitulo1>
+<texto>
+Cuando pasamos de lo largo (enfoque orientado hacia el eje diacrónico) a lo ancho (enfoque con prevalencia del eje sincrónico), es preciso dar cuenta de un abanico de subdimensiones que, vulnerabilizadas, conforman el perfil de esta prueba específica en las experiencias docentes estudiadas. En esta ocasión me detengo en dos de ellas: salud y educación.
+<texto>
+<subtitulo1><i>2.2.1. Salud</i></subtitulo1>
+<texto>
+La salud es un registro que emerge de los relatos, en el cual la muerte, las enfermedades y la violencia ejercida sobre los cuerpos conviven con consumos problemáticos y las consecuencias asociadas. En el siguiente fragmento María ilustra parte de la problemática:<texto>
+<citaabando>
+Algunas clases fueron muy gratificantes y otros años recuerdo clases muy frustrantes, muy frustrantes, donde había alumnos que eran de... en otro módulo, con chicos que eran jóvenes adultos, eran chicos de entre 18 y 21 años, que estaban en un programa... que habían sido drogadictos […]. Lo frustrante, para mí, no era que yo no podía dar la Revolución francesa. Lo frustrante era ver que estos chicos no querían estudiar absolutamente nada, esta cosa de tener la cabeza quemada. Darte cuenta de que van porque quieren un certificado que diga que van a la escuela porque quieren presentarlo en un juzgado, ¿entendés? Que hay una cuestión que no tiene nada que ver con la escuela, eso es lo frustrante. Lo frustrante es tomar conciencia de la verdadera situación de la educación (María, docente CENS 1).
+</citaabando>
+<texto>
+Aparecen la cuestión del consumo problemático pegada al hecho de tener “la cabeza quemada” como dificultad no solamente para estar en condiciones de aprender en el aula, sino para tener, nuevamente, un interés genuino por la educación secundaria. Asimismo, la problemática del consumo aparece ligada a las causas del encierro y sus consecuencias para estar en condiciones de subsistir:</texto>
+<citaabando>
+Recuerdo un pibe que no tenía dientes porque era consumidor de paco, y que estaba ahí porque le había robado a un vecino la antena para hacer la pipa para fumar, y la madre, su propia madre, creyendo que era un intruso que estaba en lo del vecino, lo denuncia. Y era su propio hijo. Y la madre nunca fue a verlo. Me acuerdo de que la maestra le tejió una gorrita, porque venía en invierno, en turno mañana, con remera de manga corta y la taza de mate cocido a la escuela. Y bueno, ahí tuvimos que conseguirle (Marta, docente CENS 2).
+</citaabando>
+<texto>
+A esto que relata Marta, se le agrega ese “poner el cuerpo” que menciona María y es casi una constante en las entrevistas. También prorrogar los contenidos, y a su vez trabajar con personas cuyos propios cuerpos también entran escena, pero ya desde otro lugar:</texto>
+<citaabando>
+Después me daba cosa, una vez estaba dando clase de los mayas. Y me causó mucha gracia, bah, me impactó mucho porque un pibe me dice “ah, sí...”, yo estaba diciendo algo sobre trayectorias y ellos te relacionan todo con lo que les pasó [en sus trayectorias]. Es como muy Freire, muy educación popular. Porque todo lo que vos estás diciendo, si te están escuchando atentamente, en algún momento se les va a retrotraer a lo que les pasó: “claro, sí, como cuando a mí me pegaron un tiro, me entró por acá y me salió por allá”. Y yo “ah, te pegaron un tiro”. “Sí, profe, cuatro tiros me pegaron”. Y entonces “sí, sí, a mí también”, y toda la clase los tipos mostrándome “mirá, acá me entró acá y me salió acá”. Entonces toda la clase era por dónde les habían entrado balas en el cuerpo. Imaginate, yo que soy amante del teatro, del cine, era “¿y qué sentiste cuando te entró una bala en el cuerpo?”. Entonces los chabones describiendo lo que les había pasado. Tremendo. De pronto no tenía nada que ver con Historia. Pero bueno, también yo permitía que eso pase ahí, era una necesidad de ellos de hablar de eso. Todos baleados, Nicolás, todos, cagados a tiros. No lo podía creer. Yo que veo un arma y lloro, los tipos enfrentados a eso permanentemente (Ana, docente CENS 3).
+</citaabando>
+<texto>
+Estos son solamente algunos de los fragmentos que dan cuenta del desafío que representa el trabajo docente frente a la vulnerabilización de los cuerpos. Situación que se extrema al hacer referencia a las enfermedades y la muerte. Guillermo (docente CENS 3), recuerda que un estudiante murió “de apendicitis”; en rigor, una peritonitis producto de la complicación del cuadro clínico por desidia y abandono por parte del SPB. En los tres CENS cuerpo, enfermedad y muerte aparecen en relación directa con las dificultades propias del encierro para tener continuidad matricular, que el curso esté conformado siempre por las mismas personas que estudian, y que a su vez las personas puedan tener una experiencia pedagógica sin interrupciones. Lucas (docente CENS 1) resume que solamente algunos egresan porque “en el medio pasan un montón de cosas”, entre ellas la muerte, e insiste en que la población encerrada sufre un sesgo orientado a los sectores populares, que también son muertos en mayor proporción que el resto de los sectores sociales, casi siempre a manos de las fuerzas represivas.</texto>
+
+<subtitulo1><i>2.2.2. Educación</i></subtitulo1>
+<texto>Todo ese “montón de cosas” también implica la subdimensión educativa, dentro de la cual emergen varios elementos específicos. A raíz de la particularidad de trabajar en estos contextos, y dada la naturaleza de las tensiones y pruebas que se presentan, lxs docentes plantean que se necesita “otra forma de compromiso”:</texto>
+<citaabando>
+En contexto yo te decía que ocurre algo del orden del compromiso, que uno ahí se compromete de otra forma […]. Esto es algo que por ahí en contexto de encierro muchos aprenden a hacerlo, pero en realidad es algo que vos deberías hacer naturalmente, nada más que ahí [en la cárcel], de una forma más especial. Quizás a muchos, contexto de encierro les enseña eso, también […]. Te obliga, si vos no trabajás de ese modo en contexto es muy difícil. Más allá de que no tenés conflicto; no es que vos vas y hacés lo que querés y los pibes te van a [decir algo], cosa que sí te puede pasar afuera. No, no te dicen nada. Pero, de acuerdo a las condiciones en las que trabajás es como que de alguna forma tenés que trabajar de esa forma. Vos no podés decir “bueno, un pibe un día vino y dejó de venir porque...”, te dicen “no, lo que pasa que tiene tuberculosis”, “y, no, lo que pasa es que lo apuñalaron”. O sea, no podés hacerte el boludo con eso, tenés que comprometerte con eso. O lo dejás, te vas a la mierda, o decís “bueno, qué pasa acá” (Sergio, docente CENS 3).</citaabando>
+<texto>
+En el testimonio de Sergio esa cuestión educativa del “compromiso” está vinculada con la subdimensión de la salud (la enfermedad y el cuerpo). Asimismo, el derecho a la educación se ve condicionado por la posibilidad de acceder a cursar estudios secundarios en la cárcel. El “manejo” de la matrícula varía entre las distintas unidades penitenciarias y sus dinámicas internas, pero en todos los casos dicho manejo es el resultado de una combinación de las cuotas de poder que se disputan, administran y ceden entre servicio penitenciario y los internos con mayor jerarquía y poder en cada pabellón. Así lo relata Nadia:</texto>
+<citaabando>
+Nosotras tenemos un coordinador pedagógico y además tenemos internos que están trabajando, que funcionan como preceptores, ponele. Entonces, ellos van por los pabellones y hacen una lista con todos los interesados en ingresar a la escuela. Entonces, en época de entrevista, los vamos bajando, “bajando” que no es bajar porque no están arriba de ningún lado, y se los entrevista, vemos en qué año está, cuál es su trayectoria educativa. Nosotras no tenemos lista de espera. En realidad, la gente del servicio se encarga de decir “¿cuántos alumnos tenés? Bueno, hasta acá”. Después, cuando se van liberando espacios, por traslados, por libertades, o porque hay gente que decidió dejar de venir, es donde se incorporan nuevas personas. O sea, debe haber una lista de espera a la que yo nunca tengo acceso, lo manejan ellos (Nadia, docente CENS 2).
+</citaabando>
+<texto>
+Que lxs estudiantes tengan semejantes trayectorias de vulnerabilizaciones extendidas se convierte para lxs docentes en un asunto que emerge con fuerza y persistencia en todos y cada uno de sus relatos. Ese otro trabajado, en la reconstrucción de las experiencias docentes en un plano ideal, demanda una tarea situada en el contexto. El compromiso docente y las condiciones para el acceso a los estudios de lxs estudiantes se solapan con otros elementos que repercuten directamente sobre la subdimensión educativa. Requisas, en las que el SPB suele violentar los espacios habitacionales y las pertenencias y los escasos materiales de estudios de lxs estudiantes; traslados, por los cuales lxs estudiantes ven interrumpidos sus estudios en los CENS de las unidades penitenciarias que dejan; comparendos, que les llevan generalmente una jornada y deben ausentarse de la escuela; visitas, que suelen ser de familiares y seres queridos y cuentan con prioridad frente a otras actividades como la asistencia a la escuela. Todo esto configura una “dinámica de contexto”, que en el plano educativo está definida por interrupciones, discontinuidades, aplazamientos, urgencias:<texto>
+<citaabando>
+En general, insisto, no llegás tan lejos como llegarías afuera, porque te lleva más tiempo. Además, está la dinámica de contexto, que es que vos empezás con veinte pibes, y el otro mes tenés por ahí veinte pero no son los mismos, diez se fueron de traslado. O a veces pasa que empezás en marzo con unos pibes y en diciembre son todos distintos, te quedaron tres de los que originalmente empezaron. Porque ya sea por traslados, por libertad, porque dejaron, porque tuvieron algún problema y no los dejan entrar a la escuela. Tenés mil factores que inciden en la regularidad de los pibes. Entonces, esa es otra cuestión a la que también tenés que habituarte. Esta cuestión de que el pibe por ahí está uno, dos, tres meses. También se pueden morir, porque eso a veces pasa; tuvo una pelea (Sergio, docente CENS 3). 
+</citaabando>
+<texto>
+Para Sergio también la dinámica del contexto hace que pedagógicamente, en términos de secuencias y ritmos, “no llegues tan lejos como afuera”. Y en su testimonio recupera a la muerte como variable, ya introducida en la subdimensión de salud. Otro elemento que emerge con fuerza de los relatos de docentes es el derecho, y concretamente a una educación de calidad en los CENS dentro de la prisión. Este es un tópico que rodea a casi todos los testimonios, y alrededor del cual aparecen diversas reflexiones acerca del derecho a la educación, sea en términos generales, como así también pensado específicamente en contextos de encierro. La cooperación entonces pasa a ser un elemento normal y necesario para una garantía parcial del derecho a una educación de “calidad” discutible, insuficiente, pero real y posible. A esta falta de recursos materiales se suma un cúmulo de recursos simbólicos que interpelan las prácticas docentes en cárceles. “Nunca fueron a la escuela”, llegan muchas veces sin saber leer y escribir, o se llevaron “a los ponchazos” con la escuela y tienen una imagen negativa o expulsiva de la misma. La escuela en sus trayectorias biográficas aparece asociada a situaciones conflictivas, sanciones disciplinarias, abandonos. “No se saben expresar mucho” porque a veces no tienen ni el nivel primario cursado. O abandonaron el nivel secundario en los primeros años o ni siquiera lo empezaron. Nadia (docente CENS 2) resume parte de ese imaginario en esta expresión: “Los adultos nos han dicho ‘¿esto era la escuela? Pero estaba buenísimo, ¿por qué no lo aproveché cuando era chico?’”.</texto>
+
+<subtitulo1><strong>2.3. Profundidad</strong></subtitulo1>
+<texto>
+La última dimensión que presento aquí de las vulnerabilizaciones extendidas es la <i>profundidad</i>. Esta dimensión está definida por el hecho de que muchas de las vulnerabilizaciones en la trayectorias vitales y sociales de lxs estudiantes se profundizan dentro de la cárcel. Como vimos hasta ahora, las dimensiones trabajadas (longitud; anchura) coexisten, se solapan, articulan, y participan en la producción de experiencias en el encierro singulares y complejas. La profundidad por definición agrupa dichas dimensiones, en un relato en el que varios de sus elementos, revisitados, dan cuenta de su magnitud y diversidad. </texto><texto>
+En este artículo, presento los rasgos de lo que podría pensarse como una profundización de la <i>segmentación educativa</i> (Arroyo y Poliak, 2011; Nobile, 2011; Verhoeven, 2013). Como veremos más adelante, siempre asociada a la <i>fragmentación educativa</i>, la segmentación se impone como el proceso en el que se evidencian circuitos educativos diferenciales. Dichos circuitos, por su localización geográfica y/o intra e interinstitucional (como el caso de los CENS en contextos de encierro), por los distintos “públicos” a los que atienden y el consecuente perfil docente que pueden llegar a agrupar, por la disponibilidad y estado de recursos pedagógicos y edilicios, ponen de manifiesto desigualdades que en las escuelas en prisión adquieren características específicas. Vuelve a aparecer el tópico de que, en la cárcel, los recursos “siempre son pocos”, y lo poco que hay “sale del bolsillo de los docentes”, quienes se organizan en “cooperadoras docentes” y juntan dinero para hacer frente a la “situación económica”, hacen rifas, reciben donaciones. La falta de recursos incluye útiles como hojas, biromes, cuadernos, fotocopias, y también recursos edilicios o institucionales tales como tizas, tubos de luz. Asimismo, la falta de recursos tecnológicos es otra de las recurrencias en los relatos; “no hay internet” o la que hay no alcanza para atender la demanda de los CENS. Solange hace su descargo sobre este punto: </texto>
+<citaabando>
+[en las escuelas de afuera] Desde la máquina les voy mostrando todos los lugares, dónde están o cómo buscar la información; [todo esto en la cárcel] con ellos no lo puedo hacer. A ellos no les puedo enseñar cómo buscar información, a cómo debatir. A ver, quiero saber una noticia, me fijo en diferentes páginas web y saco una conclusión. Eso es lo que estaría óptimo para una educación secundaria, que una pueda mantener la tecnología y las cuestiones usadas para un buen funcionamiento. Porque una se fija cuáles son las normas, cómo se cita, de qué manera, un diccionario de sinónimos, un diccionario de terminología. Ese tipo de cosas en la biblioteca de la unidad no las tenemos (Solange, docente CENS 2).</citaabando>
+<texto>
+Por su parte, la pandemia y el distanciamiento desde 2020 no hicieron otra cosa que recargar las tintas sobre ese asunto, como insiste Lucas respecto de la posibilidad real de mantener clases a distancia: </texto>
+<citaabando>
+Acá los recursos son mínimos, de hecho, recién a mitad de año pudo lograr hacer Zoom. O sea, algo mínimo, que haya internet para que los pibes vayan al sector de la escuela con una computadora, dos computadoras en realidad, separándolos y que se pueda brindar Zoom, cada profesor desde su casa. Eso empezó a ser real en junio de este año [2021], en agosto empezó la presencialidad. Entonces, la realidad es que durante el 2020 y la mitad del 2021 fue muy poco lo que se pudo garantizar el derecho a la educación (Lucas, docente CENS 1).</citaabando>
+<texto>
+A este panorama de “precariedad”, de poseer ese “algo” que siempre es “poco”, se asoma la dificultad que representa el accionar del servicio penitenciario, que arremete contra las “cosas” de lxs estudiantes en una instancia más de profundización de las vulnerabilizaciones: </texto>
+<citaabando>
+Por distintas circunstancias, imaginate que a veces vienen de una requisa algunos y les llevan sus cosas personales, surge una situación conflictiva con el servicio penitenciario y no pueden estar en condiciones de recibir una clase normal (Omar, docente CENS 1).
+</citaabando><texto>
+Así se va conformando y confirmando un cuadro que desafía la cotidianeidad y el trabajo pedagógico. Carencia de recursos materiales y simbólicos, conectividad deficiente o nula, requisas violentas y destrucción de materiales de estudio y una flexibilización de la dedicación docente, el tipo de trabajo y el tiempo neto de dictado de clases, que en algunos casos extremos se reduce a cero en todo el ciclo lectivo: </texto>
+<citaabando>
+Horarios que se recortan mucho, con una insistencia por acortar los tiempos. Es como que la pelea se centra más en lo más primario, que es que el que quiera estudiar, pueda venir [a la escuela]. Que ese ya sería otro problema porque no hay cupos para todos. Sí, el hecho educativo termina siendo dañado, sin dudas […]. Había profesores nombrados que no daban clases y que cobraban [igual]. Nunca había clases, hubo casos de materias en los que no tuvieron clases en todo el año […]. Y cuando hay clases, siempre son más cortas; en vez de ochenta minutos, terminan teniendo treinta. Tanto por negligencia de docentes como por desidia del servicio penitenciario. Las clases empiezan siempre quince días después de lo establecido […]. Docentes que dictan o hablan y no queda registro en las carpetas de estudiantes (Guillermo, docente CENS 3).</citaabando>
+<texto>
+En el relato de Guillermo vuelve a emerger algo trabajado anteriormente: el “compromiso”. En rigor, en este testimonio y muchos otros, la <i>falta de</i> compromiso como tema ríspido. “En la cárcel se encubre mejor si trabajás mal. Hay menos estudiantes que afuera, menos controles” (Guillermo, docente CENS 3). “Hacés lo que querés y los pibes no te dicen nada, cosa que sí podría pasarte afuera”, confiesa Sergio (docente CENS 3). A pesar de las prácticas de mala fe ajenas, lxs docentes buscan la forma de acercar la educación que brindan a la máxima calidad posible. Muchas veces se termina imponiendo el contexto: </texto>
+
+<citaabando>
+Siempre tenés que esperar, porque si ingresaste una y cinco, y una y cuarto querés empezar, decís “¿ya no viene nadie más [a estudiar hoy]?”, “no, no viene nadie más”. Empezaste una y cuarto, y dos menos veinticinco te cayeron ocho [estudiantes más] y ya tenés que volver atrás. Otro problema también es la asistencia discontinua, porque por ahí hoy vinieron diez, y el martes siguiente tenés ocho, pero ninguno de estos ocho son aquellos diez que estuvieron el primer martes. Entonces, generalmente es como que la misma clase la tenés que dar dos veces. Es eso lo que ocurre (Marta, docente CENS 2). </br>
+Y devaluás por completo lo que es la calidad, porque, de hecho, hay infinidad de situaciones en las que se suspenden las clases por lluvia, por cortes de luz, por medidas de seguridad. Cuando hay un conflicto en un pabellón nadie sale a estudiar ni a trabajar ni nada, quedan todos allí castigados (Guillermo, docente CENS 3). </citaabando>
+<texto>
+Esa imposición del contexto refuerza la noción de compromiso, y la reafirma como pilar de la práctica profesional. El vínculo “calidad-compromiso” ilustra una vez más toda la densidad del fenómeno educativo tras las rejas: </texto>
+<citaabando>
+Hay un compromiso y uno hace, dentro de lo que puede, lo mejor posible, más allá de que vos sabés perfectamente que la educación que ellos reciben adentro es diferente a la que pueden llegar a recibir afuera. O sea, es de menor calidad. Sea la que sea la calidad que hay afuera, porque no quiero decir con esto que la calidad de los CENS de afuera sea gran cosa […]. No quiero decir que sea la gran cosa, pero aún, no siendo gran cosa, en la cárcel es menos todavía (Sergio, docente CENS 3).</citaabando>
+<texto>
+Parecería ser una contradicción necesaria para funcionar: a menor calidad, mayor compromiso; pero ese mayor compromiso debería redundar en mayor calidad. Lo cual constituye tal vez una de las singularidades más llamativas del universo del encierro: la lógica lineal no puede explicar los nudos problemáticos del contexto y la interacción en situaciones límite asociadas casi siempre a la vulnerabilización de algún derecho fundamental. </texto>
+
+<subtitulo1><strong>3. Reflexiones finales</strong></subtitulo1>
+<texto>
+Para recapitular: en esta ocasión, puse el foco, presenté y desarrollé el segmento del proceso de individuación de lxs docentes que formaron parte del relevamiento, que delimita una prueba específica, y a modo de ensayo, algunas de las respuestas ofrecidas a esta. Con respecto a la prueba presentada y sus dimensiones, hice un desarrollo extenso y pormenorizado en un esfuerzo por dar a conocer en profundidad toda la magnitud y la densidad de semejante desafío para lxs docentes que trabajan en CENS en cárceles del SPB. En cuanto a la longitud de las vulnerabilizaciones, se destacan la precariedad, la omisión del Estado, una prevalencia de trayectorias de necesidades básicas insatisfechas. Las consecuencias biológicas, biográficas y pedagógicas de ese estado de situación se hacen visibles en los relatos. El sistema, la exclusión, la desigualdad y la reproducción estructural son algunas de las referencias o imágenes más nítidas que aportan a la construcción de la prueba específica en la experiencia docente ECE. En cuanto a la anchura de las vulnerabilizaciones, en la subdimensión de la salud emergen los consumos problemáticos, los cuerpos violentados, enfermedades tratables que a veces derivan en muertes evitables, todo lo cual refuerza la idea de abandono por parte del SPB y del mismo Estado a través de sus distintas jurisdicciones y brazos de intervención. </texto>
+<texto>En la subdimensión de educación se problematiza el acceso igualitario, “quién maneja la matrícula”. La falta de recursos y la infraestructura deficitaria cruzadas con la “dinámica de contexto” (requisas, traslados, visitas, comparendos) redundan en trayectorias educativas fragmentadas, con experiencias previas difíciles, también representaciones e imaginarios negativos sobre la escuela, como agravantes de situación. </texto>
+<texto>En cuanto a la profundidad, a la ya mencionada fragmentación se suma la segmentación: la carencia de recursos materiales y simbólicos, la conectividad deficiente o nula, requisas violentas y destrucción de materiales de estudio y una flexibilización de la dedicación docente, el tipo de trabajo y el tiempo neto de dictado de clases. </texto>
+<texto>Como vimos al principio del artículo, parte del proceso de individuación consiste en inferir las pruebas comunes en una sociedad y dar cuenta de las respuestas singularizadas de los actores. Las vulnerabilizaciones extendidas se constituyen como una prueba específica para un trabajo concreto y no generalizable a toda la sociedad, como lo es la docencia en contextos de encierro. En este punto, encuentro necesario hacer un aporte en pos de construir mediaciones que permitan ensamblar, en el mismo proceso de individuación, los tres momentos mencionados: factores estructurales, pruebas comunes y pruebas específicas. Hasta ahora, al tratarse de una tesis en desarrollo, puedo presentar parcialmente algunas líneas de pensamiento para llegar a establecer conexiones entre aquello que enfrentan lxs docentes (nivel específico), las pruebas comunes de la sociedad en la que desarrollan su trabajo y su ser social (nivel común), y los grandes cambios que atañen a su época (nivel estructural). Si bien no es el propósito de este artículo, me parece pertinente dejar un breve cuadro para instalar la necesidad de avanzar en la indagación y definición de factores y pruebas en Argentina. Así, considero que en la prueba de las vulnerabilizaciones extendidas se pueden inferir los trazos de, por lo menos, dos pruebas comunes<span id="fnref3"><a href="#fn3" class="footnote-ref" id="#fnref3" role="doc-noteref">3</a></span>.  Una prueba común asociada a “reclamar al Estado”: en tanto garante de distintas cuestiones que tienen que ver, en términos muy generales, con el bienestar ciudadano; en tanto vulnerador de otras tantas (y a veces, las mismas) cuestiones que debería garantizar en clave de ciudadanía y derechos fundamentales consagrados en la Constitución Nacional y demás letras jurídico-normativas. En esta línea podría pensarse al <i>Estado como garante formal y vulnerador activo</i>. La otra prueba común que esbozo viene asociada a la <i>necesidad de reconocimiento de la labor cotidiana</i>. De una parte, esa necesidad se expresa en estrecha relación con la anterior prueba del Estado como garante formal y vulnerador activo, esta vez de derechos laborales del gremio docente y de derechos fundamentales (salud y educación, entre muchos otros) de estudiantes en la cárcel. Este cuadro contribuye a dejar entrever en las entrevistas esa falta de consideración y hasta contralor de una alteridad, aunque no siempre se trate de un ente administrativo y/o institucional. Pero también se expresa en los sentidos que lxs docentes construyen en torno a sus experiencias profesionales, sus gratificaciones y contradicciones, y las imágenes que les devuelven lxs destinatarixs de su labor (Di Leo, Arias y Paulín, 2021; Dubet, 2006). En todas sus aristas, esta prueba común debería tener llegada a distintas experiencias sociales; es decir, en este caso se trata de docentes, pero en el nivel común podría tratarse de otro trabajo, otro oficio, otra profesión. </texto>
+<texto>Para finalizar, ensayo cuáles serían, después de todo el recorrido hecho hasta acá, los rasgos y características de las respuestas y movimientos que lxs docentes oponen a la prueba de las vulnerabilizaciones extendidas. Una vez más, la palabra viva de las personas entrevistadas representa la complejidad y sintetiza el proceso: comprometerse de otra forma. Es estar, pero desde un lugar puntual; es escuchar, pero trayectorias singulares conectadas por todas y cada una de las dimensiones de las vulnerabilizaciones; es resistir, sobre todo cuando del otro lado hay una fuerza con escudos, bastones, cascos, y hasta balas mortales; es innovar, cuando hasta en la propia experiencia no esté muy claro el sentido; es situar(se) en ese “estado de excepción”, como bien reflexiona Sergio; es otra forma de compromiso, la pendiente por definir en su densidad y articulación con pruebas comunes y factores estructurales de individuación. </texto>
+<subtitulo1><strong>Referencias bibliográficas</strong></subtitulo1>
+<bibliografía>
+<li>Araujo, Kathya y Martuccelli, Danilo (2012). <i>Desafíos comunes</i>. Santiago de Chile: LOM.</li>
+<li>Arroyo, Mariela y Poliak, Nadina (2011). Discusiones en torno a fragmentación, identidades y compromiso. Enseñar en las Escuelas de Reingreso. En G. Tiramonti (dir.), <i>Variaciones de la forma escolar</i> (pp. 89-124). Rosario: Flacso / Homo Sapiens.</li>
+<li>Di Leo, Pablo; Arias, Ana y Paulín, Horacio (2021). <i>Singularidades en común</i>. Buenos Aires: Teseo.</li>
+<li>Dubet, François (1994). <i>La experiencia sociológica</i>. Barcelona: Gedisa.</li>
+<li>----- (2006). <i>El declive de la institución: profesiones, sujetos e individuos ante la reforma del Estado</i>. Barcelona: Gedisa.</li>
+<li>Dubet, François y Martuccelli, Danilo (1998). <i>En la escuela. Sociología de la experiencia escolar</i>. Buenos Aires: Losada.</li>
+<li>Eribon, Didier (2015). <i>Regreso a Reims</i>. Madrid: Del Zorzal.</li>
+<li>----- (2022). <i>¿Cuánto vale una vida? </i>Buenos Aires: Siglo XXI.</li>
+<li>Kornblit, Ana Lía (coord.) (2004). <i>Metodologías cualitativas en ciencias sociales: modelos y procedimientos de análisis</i>. Buenos Aires: Biblos.</li>
+<li>Martuccelli, Danilo (2006). <i>Forgé par l’épreuve.</i> París: Armand Colin.</li>
+<li>----- (2007). <i>Cambio de rumbo</i>. Santiago de Chile: LOM.</li>
+<li>----- (2010). <i>¿Existen individuos en el Sur?</i> Santiago de Chile: LOM.</li>
+<li>----- (2020). La individuación, los desafíos sociales y la biografía extrospectiva. <i>Revista Contenido. Cultura y Ciencias Sociales, 10</i>, 81-112. Recuperado de https://www.revistacontenido.com/la-individuacion-los-desafios-sociales-y-la-biografia-extrospectiva/</li>
+<li>Nobile, Mariana (2011). Redefiniciones de la relación docente-alumno: una estrategia de personalización de los vínculos. En G. Tiramonti (dir.), <i>Variaciones de la forma escolar </i>(179-204). Rosario: Flacso / Homo Sapiens.</li>
+<li>Strauss, Anselm y Corbin, Juliet (2006).<i> Bases de la investigación cualitativa: técnicas y procedimientos para desarrollar la teoría fundamentada</i>. Medellín: Universidad de Antioquía.</li>
+<li>Therborn, Göran. (2015). <i>Los campos de exterminio de la desigualdad</i>. México: FCE.</li>
+<li>Vasilachis de Gialdino, Irene (2006). La investigación cualitativa. En I. Vasilachis de Gialdino (coord.), <i>Estrategias de investigación cualitativa</i> (pp. 23-64). Barcelona: Gedisa.</li>
+<li>Verhoeven, Marie (2013). Desigualdades múltiples, carreras escolares y pruebas en sistemas educativos post-masificación. Los efectos de la segmentación educativa en la construcción del sujeto. <i>Propuesta Educativa</i>, 40(2), 87-98.</li>
+<li>Weiss, Eduardo (2017). Hermenéutica y descripción densa versus teoría fundamentada. <i>Revista Mexicana de Investigación Educativa</i>, 22(73), 637-654. Recuperado de https://comie.org.mx/revista/v2018/rmie/index.php/nrmie/article/view/28</li>
+
+        
+		<!-- /* llamada a pie de página 
+		<span id="fnref1"><a href="#fn1" class="footnote-ref" id="#fnref1" role="doc-noteref">1</a></span>
+
+https://htmledit.squarefree.com/		
+*/ -->
+<hr>
+		
+		<piedepagina id="footnotes" role="doc-endnotes"><br>
+		<ol><li id="fn1"><span style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">
+		Utilizo “trabajo” y demás términos asociados a la docencia siempre como afluentes de la noción de experiencia (Dubet, 1994, 2006; Dubet y Martuccelli, 1998).
+		</span><a href="#fnref1" role="doc-backlink" style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">↩︎</a></li>
+		<li id="fn2"><span style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">
+		La sigla ECE refiere a “Educación en Contextos de Encierro”. En este artículo, también la utilizo para referir a lo que sucede “En Contextos de Encierro”.
+		</span><a href="#fnref2" role="doc-backlink" style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">↩︎</a></li>
+<li id="fn3"><span style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">
+		En los términos específicos y la perspectiva de la sociología de la individuación, en Argentina todavía no tenemos, desde las ciencias sociales, trabajos acabados que den cuenta de los grandes desafíos estructurales ni de las pruebas comunes de dicho país. Va de suyo que podrían inferirse sendos factores y pruebas de trabajos que, aunque suscriptos a otras corrientes sociológicas o incluso suscribiendo a las mismas corrientes, pero sin llegar a desarrollar y definir eso que aquí denomino “mediaciones”, iluminen algunas áreas fértiles para tal ejercicio. Sin embargo, por ahora, prefiero explicitar la limitación teórica y la vacancia empírica, y delinear qué elementos emergentes de mi trabajo de campo tienen el potencial heurístico de cobrar forma, adquirir densidad y ocupar esos espacios vacíos.
+		</span><a href="#fnref3" role="doc-backlink" style="text-align: justify; font-family: &quot;IBM Plex Serif&quot;, serif;">↩︎</a></li>
+
+		</ol>
+		</piedepagina>
+    </main>
+
+
+
+</body></html>
